@@ -1,0 +1,119 @@
+/* body{
+    width: 80%;
+    margin: 0 auto;
+} */
+
+/* TESTO */
+
+    h1{
+        color: var(--title-color);
+    }
+
+    .wht-title{
+        --title-color: white;
+    }
+
+    .blck-title{
+        --title-color: #23272A;
+    }
+
+    h3{
+        color: var(--small-title-color);
+    }
+
+    .small-title-main{
+        --small-title-color: #23272A;
+    }
+
+    .small-title-footer{
+        --small-title-color: #7389DA;
+    }
+
+    h4{
+        color: #7389DA;
+    }
+
+    p{
+        color: var(--text-color);
+    }
+
+    .wht-txt{
+        --text-color: white;
+    }
+
+    .blck-txt{
+        --text-color: #23272A;
+    }
+
+    .footer-text{
+        color: white;
+    }
+
+/* TESTO */
+
+/* LOGO  */
+
+    .logo{
+
+    }
+
+/* LOGO  */
+
+/* LINKS  */
+
+    .link-pages{
+
+    }
+
+/* LINKS  */
+
+/* BOTTONI */
+
+    button{
+        background-color: var(--bg-color);
+    }
+
+    .little-white-button{
+        --bg-color: white;
+    }
+
+    .little-blue-button{
+        --bg-color: #7189DA;
+    }
+
+    .big-white-button{
+        --bg-color: white;
+    }
+
+    .big-black-button{
+        --bg-color: #23272A;
+    }
+
+    .big-blue-button{
+        --bg-color: #7189DA;
+    }
+
+/* BOTTONI */
+
+/* ICONE */
+
+    .icons{
+
+    }
+
+    #coloured-icon{
+
+    }
+
+/* ICONE */
+
+
+
+
+
+
+
+
+
+
+
