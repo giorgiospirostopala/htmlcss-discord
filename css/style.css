@@ -269,6 +269,24 @@ header{
 
 /* footer */
 
+/* bonus? */
+    .wave img{  
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: -5px 0;
+    }
+
+    .wave2{
+        transform: scaleY(-1);
+        margin: -5px 0;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+  
+
 
 
 
