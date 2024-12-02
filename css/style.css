@@ -1,16 +1,24 @@
-/* body{
-    width: 80%;
-    margin: 0 auto;
-} */
+body{
+    padding: 0 150px;
+}
+
+
+
+header{
+    margin-left: -150px;
+    margin-right: -150px;
+}
 
 /* TESTO */
 
     h1{
         color: var(--title-color);
+        font-size: 35px;
     }
 
     .wht-title{
         --title-color: white;
+        padding: 15px 0px;
     }
 
     .blck-title{
@@ -39,6 +47,10 @@
 
     .wht-txt{
         --text-color: white;
+        padding: 10px 0px;
+        width: 60%;
+        margin: 0 auto;
+        /* CHIEDI cosa sia il contorno ancora più esterno al testo e come rimuoverlo */
     }
 
     .blck-txt{
@@ -54,15 +66,20 @@
 /* LOGO  */
 
     .logo{
-
+        display: flex;
+        align-items: center;
     }
 
 /* LOGO  */
 
 /* LINKS  */
 
-    .link-pages{
-
+    .nav-links{
+        color: white;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        /* perché GAP SI e JC:S-B NO? forse devo creare un sotto-contenitore... */
     }
 
 /* LINKS  */
@@ -71,6 +88,9 @@
 
     button{
         background-color: var(--bg-color);
+        padding: 10px 15px;
+        margin: 0px 10px;
+        border-radius: 20px;
     }
 
     .little-white-button{
@@ -87,6 +107,7 @@
 
     .big-black-button{
         --bg-color: #23272A;
+        color: white;
     }
 
     .big-blue-button{
@@ -106,6 +127,43 @@
     }
 
 /* ICONE */
+
+/* NAV-BAR */
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #265EE9;
+        padding: 25px 0px;
+    }
+
+/* NAV-BAR */
+
+/* primo contenitore */
+
+    .container-0{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-1{
+        background-image: url(/img/jumbo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 85px;
+    }
+    
+    .sub-container-1{
+        display: flex;
+        flex-direction: row;
+    }
+
+/* primo contenitore */
 
 
 
