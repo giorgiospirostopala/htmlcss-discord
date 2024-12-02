@@ -1,36 +1,42 @@
-body{
+/* body{
     padding: 0 150px;
 }
-
-
 
 header{
     margin-left: -150px;
     margin-right: -150px;
-}
+} */
 
 /* TESTO */
 
     h1{
         color: var(--title-color);
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .wht-title{
         --title-color: white;
         padding: 15px 0px;
+        line-height: 1.3;
     }
 
     .blck-title{
         --title-color: #23272A;
+        line-height: 1.3;
+        margin-bottom: 20px;
     }
 
-    h3{
+    h2{
         color: var(--small-title-color);
     }
 
     .small-title-main{
         --small-title-color: #23272A;
+        background-image: url(/img/stars.svg);
+        background-repeat: no-repeat;
+        background-size: 480px;
+        background-position: center;
+        padding-top: 5%
     }
 
     .small-title-footer{
@@ -51,10 +57,13 @@ header{
         width: 60%;
         margin: 0 auto;
         /* CHIEDI cosa sia il contorno ancora più esterno al testo e come rimuoverlo */
+        line-height: 1.7;
     }
 
     .blck-txt{
         --text-color: #23272A;
+        line-height: 1.7;
+
     }
 
     .footer-text{
@@ -112,6 +121,8 @@ header{
 
     .big-blue-button{
         --bg-color: #7189DA;
+        color: white;
+        margin-top: 4%;
     }
 
 /* BOTTONI */
@@ -165,9 +176,48 @@ header{
 
 /* primo contenitore */
 
+/* secondo contenitore */
+
+    .img{
+        width: 55%;
+    }
+
+    .container-2{
+        display: flex;
+        padding: 8% 12%;
+    }
+
+    .sub-container-2{
+    padding: 4%;   
+    }
+/* secondo contenitore */
 
 
+/* terzo cont  */
+    .container-3{
+        display: flex;
+        padding: 8% 12%;
+        background-color: #F5F5F5;
+    }
 
+    .sub-container-3{
+    padding: 4%;   
+    }
+/* terzo cont  */
+
+/* quarto cont  */
+
+    .container-4{
+        padding: 8% 12%;
+        text-align: center;
+        background-color: #F5F5F5;
+    }
+
+    #big-image{
+        width: 100%;
+    }
+
+/* quarto cont  */
 
 
 
