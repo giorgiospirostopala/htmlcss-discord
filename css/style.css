@@ -7,6 +7,8 @@ header{
     margin-right: -150px;
 } */
 
+/* CHIEDI SE DEVI TRASLARE TUTTE LE MISURE DA PIXEL A PERCENTUALE oppure va bene così */
+
 /* TESTO */
 
     h1{
@@ -43,7 +45,7 @@ header{
         --small-title-color: #7389DA;
     }
 
-    h4{
+    h5{
         color: #7389DA;
     }
 
@@ -68,6 +70,7 @@ header{
 
     .footer-text{
         color: white;
+        font-size: smaller;
     }
 
 /* TESTO */
@@ -77,6 +80,10 @@ header{
     .logo{
         display: flex;
         align-items: center;
+    }
+
+    #footer-logo{
+        margin: 3% 0% 30% 8.5%;
     }
 
 /* LOGO  */
@@ -89,6 +96,8 @@ header{
         gap: 50px;
         align-items: center;
         /* perché GAP SI e JC:S-B NO? forse devo creare un sotto-contenitore... */
+        font-size: smaller;
+
     }
 
 /* LINKS  */
@@ -100,14 +109,19 @@ header{
         padding: 10px 15px;
         margin: 0px 10px;
         border-radius: 20px;
+        font-size: large;
     }
 
     .little-white-button{
         --bg-color: white;
+        font-size: 12px;
+        
     }
 
     .little-blue-button{
         --bg-color: #7189DA;
+        font-size: 12px;
+        color: white;
     }
 
     .big-white-button{
@@ -145,7 +159,7 @@ header{
         display: flex;
         justify-content: space-between;
         background-color: #265EE9;
-        padding: 25px 0px;
+        padding: 1.2% 3%;
     }
 
 /* NAV-BAR */
@@ -219,7 +233,41 @@ header{
 
 /* quarto cont  */
 
+/* footer */
 
+    footer{
+        background-color: #23272A;
+    }
+
+    .container-5{
+        display: flex;
+        justify-content: space-around;
+        padding: 5%;
+    }
+
+    #blue-row{
+        background-color: #4e5c8c;
+        height: 1px;
+        margin: 0 8.5%;
+    }
+
+    .mini-footer{
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5% 8.5% 0% 8.5%;
+        padding-bottom: 4%;
+    }
+
+    #bandierina{
+        height: 11px;
+    }
+
+    #social{
+        height: 20px;
+        margin-right: 10px;
+    }
+
+/* footer */
 
 
 
