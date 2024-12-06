@@ -34,7 +34,7 @@ header{
 
     .small-title-main{
         --small-title-color: #23272A;
-        background-image: url(/img/stars.svg);
+        background-image: url(./img/stars.svg);
         background-repeat: no-repeat;
         background-size: 480px;
         background-position: center;
@@ -172,7 +172,7 @@ header{
     }
 
     .container-1{
-        background-image: url(/img/jumbo.png);
+        background-image: url(./img/jumbo.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
